@@ -22,6 +22,6 @@ public class ShieldController {
     @GetMapping("/secret-bases")
     @ResponseBody
     public String showBases() {
-        return "Secret bases: Bordeaux, Lyon, Nantes, Lille, Paris, Toulouse";
+        return "Secret bases:  Toulouse";
     }
 }
